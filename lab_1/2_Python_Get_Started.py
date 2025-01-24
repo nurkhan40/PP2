@@ -7,14 +7,10 @@ To check if you have python installed on a Windows PC,
 search in the start bar for Python or run the following 
 on the Command Line (cmd.exe):
 
-c:\Users\Nurhan>python --version
-
+C:\\Users\\Nurhan>python --version
 """
 
-
-
 """
-
 Python Quickstart
 
 Python is an interpreted programming language,
@@ -24,10 +20,8 @@ into the python interpreter to be executed.
 
 The way to run a python file is like this on the command line:
 
-C:\Users\Nurhan>python hi_world.py
+C:\\Users\\Nurhan>python hi_world.py
 """
-
-
 
 """
 Python Version
@@ -39,8 +33,6 @@ import sys
 
 print(sys.version)
 
-
-
 """
 The Python Command Line
 
@@ -50,11 +42,10 @@ write the code in a file. This is made
 possible because Python can be run as 
 a command line itself.
 
-C:\Users\Nurhan>py
+C:\\Users\\Nurhan>py
 Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Hello World")
 Hello World
 >>> exit()
-
 """
