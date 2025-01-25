@@ -24,7 +24,7 @@ while True:
         print('z = 1j  # complex\n')
         print("\n# display x, y, z and their data types:\nprint(x)\nprint(type(x))\nprint(y)\nprint(type(y))\nprint(z)\nprint(type(z))\n")
         print("The output\n")
-        x = 1  # int
+        x = 1    # int
         y = 2.8  # float
         z = 1j   # complex
         print(x)
