@@ -1,0 +1,153 @@
+"""
+Python - Escape Characters
+"""
+print("----------------------------------------------------------------------------------------\n")
+print("Escape Character:\n")
+print("To insert characters that are illegal in a string, use an escape character.\n")
+print("An escape character is a backslash \\ followed by the character you want to insert.\n")
+print("An example of an illegal character is a double quote inside a string that is surrounded by double quotes:\n")
+print("Example (This will cause an error):\n")
+print('txt = "We are the so-called "Vikings" from the north."\n')
+print("To fix this problem, use the escape character \\\" :\n")
+print("----------------------------------------------------------------------------------------\n")
+
+print("Corrected Example:\n")
+print("The escape character allows you to use double quotes when you normally would not be allowed:\n")
+print('txt = "We are the so-called \\"Vikings\\" from the north."\n')
+print("print(txt)\n")
+print("The output:\n")
+
+# Corrected Example:
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+print("\n----------------------------------------------------------------------------------------")
+
+print("More Examples Just Enter the number or 'q' to leave")
+print("1. Single quote")
+print("2. Backslash")
+print("3. New Line")
+print("4. Carriage Return")
+print("5. Tab")
+print("6. Backspace")
+print("7. Octal value")
+print("8. Hex value")
+while True:
+    a = input()
+    if a == "1":
+        print("----------------------------------------------------------------------------------------")
+        print("Single Quote")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print("txt = 'It\\'s alright.'")
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = 'It\'s alright.'
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "2":
+        print("----------------------------------------------------------------------------------------")
+        print("Backslash")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "This will insert one \\\\ (backslash)."')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "This will insert one \\ (backslash)."
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "3":
+        print("----------------------------------------------------------------------------------------")
+        print("New Line")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "Hello\\nWorld!"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "Hello\nWorld!"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "4":
+        print("----------------------------------------------------------------------------------------")
+        print("Carriage Return")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "Hello\\rWorld!"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "Hello\rWorld!"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "5":
+        print("----------------------------------------------------------------------------------------")
+        print("Tab")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "Hello\\tWorld!"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "Hello\tWorld!"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "6":
+        print("----------------------------------------------------------------------------------------")
+        print("Backspace")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "Hello \\bWorld!"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "Hello \bWorld!"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "7":
+        print("----------------------------------------------------------------------------------------")
+        print("Octal value")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "\\110\\145\\154\\154\\157"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "\110\145\154\154\157"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "8":
+        print("----------------------------------------------------------------------------------------")
+        print("Hex value")
+        print("----------------------------------------------------------------------------------------")
+        print("Example")
+        print("")
+        print("The code:")
+        print('txt = "\\x48\\x65\\x6c\\x6c\\x6f"')
+        print("print(txt)")
+        print("")
+        print("The output:")
+        txt = "\x48\x65\x6c\x6c\x6f"
+        print(txt)
+        print("----------------------------------------------------------------------------------------")
+    elif a == "q":
+        print("See you next time!")
+        break
+    else:
+        print("Enter between 1-8 or 'q' to leave!")
