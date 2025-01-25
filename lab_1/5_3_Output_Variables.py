@@ -94,5 +94,5 @@ while True:
         break
     else:
         print(" ")
-        print("Eneter number between 1-4!")
+        print("Eneter number between 1-6!")
         print(" ")
