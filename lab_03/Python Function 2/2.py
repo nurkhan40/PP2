@@ -7,4 +7,5 @@ def list_of_losers(movies):
         if movie["imdb"] < 5.5:
             a.append(movie["name"])
     return a
+
 print(list_of_losers(movies))

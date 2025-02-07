@@ -1,0 +1,10 @@
+from moviess import movies
+
+def imdb(movies):
+    name = input("name: ")
+
+    for movie in movies:
+        if movie["name"]==name:
+                return movie["category"]
+
+print(imdb(movies))
